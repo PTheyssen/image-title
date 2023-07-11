@@ -58,7 +58,7 @@ def add_title_to_image(input_file: str, title: str, date: str, output_file:str):
     date_position = (width - 20, 10)  # Top right corner
 
     # Write text1 at text1_position
-    draw.text(name_position, "PHILIPP THEYSSEN", fill="white", font=font)
+    draw.text(name_position, "AUTHOR", fill="white", font=font)
 
     # Write text2 at text2_position
     text_width, text_height = draw.textsize(title, font=font)
